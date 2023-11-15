@@ -11,7 +11,7 @@
 
 # Introduction to secret scanning
 
-_TBD-course-description_
+_GitHub scans repositories for known types of secrets, to prevent fraudulent use of secrets that were committed accidentally. In this GitHub Skills course you will learn how to enable secret scanning to identify serets and prevent them from being committed to your repository._
 
 </header>
 
