@@ -9,9 +9,9 @@
   Add your open source license, GitHub uses the MIT license.
 -->
 
-# TBD-course-name
+# Introduction to secret scanning
 
-_TBD-course-description_
+_GitHub scans repositories for known types of secrets, to prevent fraudulent use of secrets that were committed accidentally.  In this GitHub Skills course, you'll learn how to identify secrets, create custom secret scanning patterns, and prevent secrets from being commited to your repository._
 
 </header>
 
