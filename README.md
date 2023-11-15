@@ -9,7 +9,7 @@
   Add your open source license, GitHub uses the MIT license.
 -->
 
-# TBD-course-name
+# Introduction to secret scanning
 
 _TBD-course-description_
 
