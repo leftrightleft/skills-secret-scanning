@@ -34,9 +34,8 @@ In this course, you will:
 
 1. Enable secret scanning
 2. Identify credentials stored in your repository
-3. 
-4. TBD-step-4-name
-5. TBD-step-5-name
+3. Enable push protection
+4. Stop secrets from being written to your repository
 
 ### How to start this course
 
