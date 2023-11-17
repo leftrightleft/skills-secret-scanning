@@ -25,17 +25,16 @@ _GitHub scans repositories for known types of secrets, to prevent fraudulent use
 
 TBD-welcome-paragraph
 
-- **Who is this for**: TBD-audience.
-- **What you'll learn**: TBD-objective.
-- **What you'll build**: TBD-result.
-- **Prerequisites**: TBD-prerequisites.
-- **How long**: This course takes less than TBD-duration to complete.
+- **Who is this for**: Developers, DevOps Engineers, new GitHub users, students, teams.
+- **What you'll learn**: How to identify plain-text credentials in your repository and how to prevent them from being written in the first place.
+- **Prerequisites**: Basics of git and GitHub functionality. We recommend you complete [Introduction to GitHub](https://github.com/skills/introduction-to-github)
+- **How long**: This course takes less than 30 minutes to complete.
 
 In this course, you will:
 
-1. TBD-step-1-name
-2. TBD-step-2-name
-3. TBD-step-3-name
+1. Enable secret scanning
+2. Identify credentials stored in your repository
+3. 
 4. TBD-step-4-name
 5. TBD-step-5-name
 
