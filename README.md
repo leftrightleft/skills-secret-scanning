@@ -23,9 +23,9 @@ _GitHub scans repositories for known types of secrets, to prevent fraudulent use
 
 ## Welcome
 
-TBD-welcome-paragraph
+Plain-text credentials accidentally stored in repositories on GitHub are a common target for attackers.  In fact, we find well over a million tokens stored on the GitHub platform each year. Secret scanning is a powerful tool which allows teams to identify these plain-text credentials, remove them, and create rules to prevent them from being written to GitHub in the first place.
 
-- **Who is this for**: Developers, DevOps Engineers, new GitHub users, students, teams.
+- **Who is this for**: Developers, DevOps Engineers, security teams.
 - **What you'll learn**: How to identify plain-text credentials in your repository and how to prevent them from being written in the first place.
 - **Prerequisites**: Basics of git and GitHub functionality. We recommend you complete [Introduction to GitHub](https://github.com/skills/introduction-to-github)
 - **How long**: This course takes less than 30 minutes to complete.
