@@ -21,8 +21,7 @@ In this step, you will enable secret scanning on this repository. Once secret sc
 1. In your newly created repository, select **Settings** from the top navigation bar.
 1. Under the **Security** section on the left side, select **Code security and analysis**.
 1. Scroll to the bottom of this page and select the **Enable** button next to "Secret scanning"
-
-[!enable-secret-scanning.png](/images/enable-secret-scanning.png)
+![enable-secret-scanning.png](/images/enable-secret-scanning.png)
 
 **Note:** When you enable secret scanning, the option to enable push protection show up. Don't enable push protection yet. 
 
