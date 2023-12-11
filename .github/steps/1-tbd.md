@@ -7,11 +7,11 @@
   TBD-step-1-notes.
 -->
 
-## Step 1: TBD-step-1-name
+## Step 1: Enable Secret Scanning
 
-_Welcome to "TBD-course-name"! :wave:_
+_Welcome to "Introduction to Secret Scanning"! :wave:_
 
-TBD-step-1-information
+Within GitHub, we're constantly scanning repositories for credentials.  
 
 **What is _TBD-term-1_**: TBD-definition-1
 
