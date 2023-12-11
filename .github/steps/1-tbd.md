@@ -18,22 +18,23 @@ In this step, you will enable secret scanning on this repository. Once secret sc
 ### :keyboard: Activity 1: Enable secret scanning
 
 1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
-1. In your newly created repository, select **Settings** from the top navigation bar.
-1. Under the **Security** section on the left side, select **Code security and analysis**.
-1. Scroll to the bottom of this page and select the **Enable** button next to "Secret scanning"
-![enable-secret-scanning.png](/images/enable-secret-scanning.png)
-
-**Note:** When you enable secret scanning, the option to enable push protection show up. Don't enable push protection yet. 
-
+2. In your newly created repository, select **Settings** from the top navigation bar.
+3. Under the **Security** section on the left side, select **Code security and analysis**.
+4. Scroll to the bottom of this page and select the **Enable** button next to "Secret scanning"
+> [!IMPORTANT]
+> When you enable secret scanning, the option to enable push protection will show up. Don't enable push protection yet. 
 
 ### :keyboard: Activity 2: Commit a token
 
 Now that we have secret scanning enabled in this repository, let's commit a new token to see how it works. We'll commit an AWS key and access ID to the repository. Don't worry, this is an inactive token that can't be used to log in to AWS.
 
 1. Like the first activity, you will need to work on these steps in a second browser tab.
-1. Click the Code tab in your repository.
-1. Select the routes.py file.
-1. Click the Edit button to the right.
+2. Click the Code tab in your repository.
+3. Select the `credentials.yml` file.
+4. Click the Edit button to the right.
+![edit-credentials-file](/images/edit-credentials-file.png)
+
+5. Copy the following text into the `credentials.yml` file 
 ``` yaml
 default:
   aws_access_key_id: AKIAQYLPMN5HNM4OZ56B
@@ -42,5 +43,5 @@ default:
   region: us-east-2
 ```
 
-1. 
-1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+6. Click **Commit changes...** from the top right. The "Propose changes" window will pop up. Leave the defaults configured, and click **Commit changes** again.
+7. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
