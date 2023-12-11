@@ -15,7 +15,13 @@ Within GitHub, we're constantly scanning repositories for credentials.
 
 **What is _TBD-term-1_**: TBD-definition-1
 
-### :keyboard: Activity: TBD-step-1-name
+### :keyboard: Activity 1: Enable secret scanning
+
+1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
+1. TBD-step-1-instructions.
+1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+
+### :keyboard: Activity 2: Commit a token
 
 1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
 1. TBD-step-1-instructions.
