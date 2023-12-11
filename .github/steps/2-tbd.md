@@ -5,7 +5,7 @@
   TBD-step-2-notes.
 -->
 
-## Step 2: TBD-step-2-name
+## Step 2: Review findings and enable push protection
 
 _You did TBD-step-1-name! :tada:_
 
@@ -13,7 +13,14 @@ TBD-step-2-information
 
 **What is _TBD-term-2_**: TBD-definition-2
 
-### :keyboard: Activity: TBD-step-2-name
+### :keyboard: Activity 1: Review findings
 
 1. TBD-step-2-instructions.
-1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+
+### :keyboard: Activity 2: Enable push protection
+
+1. TBD-step-2-instructions.
+
+### :keyboard: Activity 2: Attempt to commit a secret
+
+1. TBD-step-2-instructions.
