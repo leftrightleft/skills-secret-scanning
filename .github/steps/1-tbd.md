@@ -32,9 +32,11 @@ Now that we have secret scanning enabled in this repository, let's commit a new 
 2. Click the Code tab in your repository.
 3. Select the `credentials.yml` file.
 4. Click the Edit button to the right.
-![edit-credentials-file](/images/edit-credentials-file.png)
+   
+  ![edit-credentials-file](/images/edit-credentials-file.png)
 
-5. Copy the following text into the `credentials.yml` file 
+5. Copy the following text into the `credentials.yml` file
+
 ``` yaml
 default:
   aws_access_key_id: AKIAQYLPMN5HNM4OZ56B
