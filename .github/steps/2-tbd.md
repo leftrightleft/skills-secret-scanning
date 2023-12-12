@@ -5,7 +5,7 @@
   TBD-step-2-notes.
 -->
 
-## Step 2: Review secret scanning findings
+## Step 2: Review secret scanning alerts
 
 _You did Step 1: Enable secret scanning! :tada:_
 
@@ -57,9 +57,12 @@ When secret scanning finds a secret in your repository, the first thing you shou
 
 ## Step 3: Enable push protection
 
-_You did Step 1: Enable secret scanning! :tada:_
+_Way to go! You completed Step 2: Review secret scanning alerts  :tada:_
+
+Up to now, you've learned how to identify secrets already stored in your repository. In this section, we will enable push protection on the repository to prevent new secrets from being written to the repository.
 
 **What is push protection**: When code is being written to GitHub (a push), secret scanning checks for high-confidence secrets (those identified with a low false positive rate). Secret scanning lists any secrets it detects so the author can review the secrets and remove them or, if needed, allow those secrets to be pushed.
+
 ### :keyboard: Activity 1: Enable push protection
 
 1. TBD-step-2-instructions.
