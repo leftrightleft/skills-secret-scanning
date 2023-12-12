@@ -5,7 +5,7 @@
   TBD-step-2-notes.
 -->
 
-## Step 2: Review findings and enable push protection
+## Step 2: Review secret scanning findings
 
 _You did Step 1: Enable secret scanning! :tada:_
 
@@ -18,6 +18,10 @@ In the last step, you enabled secret scanning on the repository and committed an
 1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
 2. Navigate to the **Security** tab in the top navigation bar of your repository.
 3. Select **Secret scanning** under the "Vulnerability alerts" heading in left-side navigation bar.
+
+## Step 3: Enable push protection
+
+_You did Step 1: Enable secret scanning! :tada:_
 
 ### :keyboard: Activity 2: Enable push protection
 
