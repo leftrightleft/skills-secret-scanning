@@ -42,8 +42,18 @@ In this activity, we will explore the alert UI. We'll review the validity of the
 
 ![audit-trail.png](/images/audit-trail.png)
 
-### :keyboard: Activity 2: Triage an alert
-his token was committed to the credentials.yml file long ago, then deleted. Secret scanning will notify you of secrets in the commit history even if the latest version of your code doesn't contain the secret.
+### :keyboard: Activity 2: Close an alert
+
+When secret scanning finds a secret in your repository, the first thing you should do is disable that secret on the provider side. This prevents any further use of that credential. Once the secret has been disabled, the next step is to mark the alert in secret scanning as "Revoked". In this activity, you will open an alert that has been validated as "Inactive" by secret scanning, then mark that alert as "Revoked" in secret scanning.
+
+1. From the list of secret scanning alerts (in your other tab), open the alert titled **GitHub Personal Access Token**.
+2. At the top of this alert, note that this alert is marked as "Secret inactive on github.com". Secret scanning has already validated this credential and found that it is disabled.
+3. Select the **Close as** dropdown
+4. Choose **Revoked**
+5. Enter a comment in the text box
+6. Choose **Close alert**
+   ![revoke-token.png](/images/revoke-token.png)
+7. Note that the alert has changed state to "Closed" and that a new entry has been added to the audit trail at the bottom of the alert.
 
 ## Step 3: Enable push protection
 
