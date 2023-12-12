@@ -24,10 +24,11 @@ This page contains the list of secret scanning alerts. You can filter and sort t
 
 ### :keyboard: Activity 2: Review a secret scanning alert
 
-In this activity, we will explore the alert UI. We'll review the validity of the secret and indentify where the secret was detected in the repository. 
+In this activity, we will explore the alert UI. We'll review the validity of the secret and indentify where the secret was detected in the repository. Open the **Amazon AWS Access Key ID** alert.
 
-1. Open the **Amazon AWS Access Key ID** alert.
-2.  
+**Alert Status:** This section identifies the current status of the alert (open or closed) and identifies when the alert was first detected.
+
+![alert-status.png](/images/alert-status.png)
 
 ### :keyboard: Activity 2: Triage an alert
 his token was committed to the credentials.yml file long ago, then deleted. Secret scanning will notify you of secrets in the commit history even if the latest version of your code doesn't contain the secret.
