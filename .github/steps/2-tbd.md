@@ -65,8 +65,13 @@ Up to now, you've learned how to identify secrets already stored in your reposit
 
 ### :keyboard: Activity 1: Enable push protection
 
-1. TBD-step-2-instructions.
+1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
+2. Navigate to **Settings** on the top navigation bar
+3. Under the "Security" section on the left side, select **Code security and analysis**.
+4. Scroll to the bottom of the page and select **Enable** next to "Push Protection"
 
 ### :keyboard: Activity 2: Attempt to push a secret
 
-1. TBD-step-2-instructions.
+Now that you have enabled secret scanning push protection, certain new secrets will be blocked from being written to the repository. In this activity you will commit a new credential to the repository to experience the block protection.
+
+1. In your other browswer tab, open the 
