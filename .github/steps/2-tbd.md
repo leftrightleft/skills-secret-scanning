@@ -42,7 +42,7 @@ In this activity, we will explore the alert UI. We'll review the validity of the
 
 ![audit-trail.png](/images/audit-trail.png)
 
-### :keyboard: Activity 2: Close an alert
+### :keyboard: Activity 3: Close an alert
 
 When secret scanning finds a secret in your repository, the first thing you should do is disable that secret on the provider side. This prevents any further use of that credential. Once the secret has been disabled, the next step is to mark the alert in secret scanning as "Revoked". In this activity, you will open an alert that has been validated as "Inactive" by secret scanning, then mark that alert as "Revoked" in secret scanning.
 
@@ -74,4 +74,25 @@ Up to now, you've learned how to identify secrets already stored in your reposit
 
 Now that you have enabled secret scanning push protection, certain new secrets will be blocked from being written to the repository. In this activity you will commit a new credential to the repository to experience the block protection.
 
-1. In your other browswer tab, open the 
+1. In your other browswer tab, open the `credentials.yml` file.
+2. Click the Edit button to the right.  
+
+![edit-credentials-file](/images/edit-credentials-file.png)
+
+3. Copy and paste the following string into the end of the file: `  
+  github-token: github_pat_<REMOVEME>11A4YXR6Y0v36CYFkuT5I1_ZRWX91c8k0waSN6x7AiVJ6zZ9ZHUQXBblBqFQpKd23V6CL7MWMPopnmBxzn`
+4. Delete `<REMOVEME>` from the string you just pasted. The `<REMOVEME>` string is there so secret scanning doesn't create an alert before we're able to test push protection. Your file should look like this:
+
+![push-protection.png](/images/push-protection.png)
+
+ 5. Select **Commit changes...**
+ 6. Select **Commit changes**
+ 7. At this point, an alert will show on your page informing you that a new secret is being added to the repository.
+
+### :keyboard: Activity 3: Bypass push protection
+
+Now that you're aware of the secret in your commit, you should remove the secret from the commit and commit history, then attempt the push again. In some cases, you may be willing to accept the risk of adding a secret to your repository. In those situations, you can choose to bypass push protection. In this activity, you will bypass push protection and write the token to your repository (don't worry, the example token is safe).
+
+1. Select the radio button next to **It's used in tests**
+2. Click **Allow secret**
+3. Wait about 20 seconds then refresh this page (the one you're following instructions from). GitHub Actions will automatically update to the next step.
