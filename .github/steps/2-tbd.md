@@ -39,7 +39,7 @@ Open the **Amazon AWS Access Key ID** alert.
 
 ![secret-location.png](/images/secret-location.png)
 
-**Alert audit trail:** The alert audit trail contains any changes to the state of the alert as well as who made the change. In this example, the alert only has an "Opened" event. If the alert is closed, a new event will be added to this trail.
+**Alert audit trail:** The alert audit trail contains any changes to the state of the alert as well as who made the change. In this example, the alert only has an "Opened" event. If the alert is closed, a new event will be added to the audit trail.
 
 ![audit-trail.png](/images/audit-trail.png)
 
