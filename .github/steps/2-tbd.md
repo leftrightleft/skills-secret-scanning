@@ -5,7 +5,7 @@
   TBD-step-2-notes.
 -->
 
-## Step 2: Review secret scanning alerts
+## Step 2: Review and close secret scanning alerts
 
 _You did Step 1: Enable secret scanning! :tada:_
 
