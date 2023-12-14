@@ -11,9 +11,9 @@
 
 _Welcome to "Introduction to Secret Scanning"! :wave:_
 
-In this step, you will enable secret scanning on this repository. Once secret scanning is enabled, you will add a new credential to see how secret scanning identifies the credential.  
+In this step, you will enable secret scanning on this repository. Once secret scanning is enabled, you will add a new credential to see how secret scanning identifies the credential. 
 
-**What is a secret**: In the context of secret scanning, a secret (or credential) is a plain-text string that autorizes a user to any number of third-party services.  Examples could be AWS secret access keys/ID's, Google API keys, or Stripe API tokens.  View our entire list of supported patterns [here](https://docs.github.com/en/code-security/secret-scanning/secret-scanning-patterns#supported-secrets).
+**What is a secret**: In the context of secret scanning, a secret (or credential) is a plain-text string that autorizes a user to any number of third-party services. Examples could be AWS secret access keys/ID's, Google API keys, or Stripe API tokens. View our entire list of supported patterns [here](https://docs.github.com/en/code-security/secret-scanning/secret-scanning-patterns#supported-secrets).
 
 ### :keyboard: Activity 1: Enable secret scanning
 
@@ -26,7 +26,7 @@ In this step, you will enable secret scanning on this repository. Once secret sc
 
 ### :keyboard: Activity 2: Commit a token
 
-Now that we have secret scanning enabled in this repository, let's commit a new token to see how it works. We'll commit an AWS key and access ID to the repository. Don't worry, this is an inactive token that can't be used to log in to AWS.
+Now that you have secret scanning enabled in this repository, let's commit a new token to see how it works. You'll commit an AWS key and access ID to the repository. Don't worry, this is an inactive token that can't be used to log in to AWS.
 
 1. Like the first activity, you will need to work on these steps in a second browser tab.
 2. Click the Code tab in your repository.
