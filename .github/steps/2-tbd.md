@@ -9,7 +9,7 @@
 
 _You did Step 1: Enable secret scanning! :tada:_
 
-In the last step, you enabled secret scanning on the repository and committed an AWS credential to the repository.  In this step, you'll first review the secret scanning alerts. Afterward, you'll enable push protection which prevents you from accidentally writing credentials to a repository. Finally, you'll attempt to write a new credential to see how push protection works.
+In the last step, you enabled secret scanning on the repository and committed an AWS credential to the repository. In this step, you'll first review the secret scanning alerts. Afterward, you'll enable push protection which prevents you from accidentally writing credentials to a repository. Finally, you'll attempt to write a new credential to see how push protection works.
 
 ### :keyboard: Activity 1: View all secret scanning alerts
 
@@ -74,7 +74,7 @@ Up to now, you've learned how to identify secrets already stored in your reposit
 Now that you have enabled secret scanning push protection, certain new secrets will be blocked from being written to the repository. In this activity you will commit a new credential to the repository to experience the block protection.
 
 1. In your other browswer tab, open the `credentials.yml` file.
-2. Click the Edit button to the right.  
+2. Click the Edit button to the right.
 
 ![edit-credentials-file](/images/edit-credentials-file.png)
 
