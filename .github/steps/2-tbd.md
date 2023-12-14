@@ -23,7 +23,7 @@ This page contains the list of secret scanning alerts. You can filter and sort t
 
 ### :keyboard: Activity 2: Review a secret scanning alert
 
-In this activity, we will explore the alert UI. We'll review the validity of the secret and indentify where the secret was detected in the repository. Open the **Amazon AWS Access Key ID** alert.
+In this activity, you will explore the alert UI. You'll review the validity of the secret and indentify where the secret was detected in the repository. Open the **Amazon AWS Access Key ID** alert.
 
 **Alert status:** This section identifies the current status of the alert (open or closed) and identifies when the alert was first detected.
 
@@ -58,7 +58,7 @@ When secret scanning finds a secret in your repository, the first thing you shou
 
 _Way to go! You completed Step 2: Review secret scanning alerts  :tada:_
 
-Up to now, you've learned how to identify secrets already stored in your repository. In this section, we will enable push protection on the repository to prevent new secrets from being written to the repository.
+Up to now, you've learned how to identify secrets already stored in your repository. In this section, you will enable push protection on the repository to prevent new secrets from being written to the repository.
 
 **What is push protection**: When code is being written to GitHub (a push), secret scanning checks for high-confidence secrets (those identified with a low false positive rate). Secret scanning lists any secrets it detects so the author can review the secrets and remove them or, if needed, allow those secrets to be pushed.
 
@@ -82,7 +82,7 @@ Now that you have enabled secret scanning push protection, certain new secrets w
 ```  
   github-token: github_pat_<REMOVEME>11A4YXR6Y0v36CYFkuT5I1_ZRWX91c8k0waSN6x7AiVJ6zZ9ZHUQXBblBqFQpKd23V6CL7MWMPopnmBxzn
 ```
-5. Delete `<REMOVEME>` from the string you just pasted. The `<REMOVEME>` string is there so secret scanning doesn't create an alert before we're able to test push protection. Your file should look like this:
+5. Delete `<REMOVEME>` from the string you just pasted. The `<REMOVEME>` string is there so secret scanning doesn't create an alert before you're able to test push protection. Your file should look like this:
 
 ![push-protection.png](/images/push-protection.png)
 
