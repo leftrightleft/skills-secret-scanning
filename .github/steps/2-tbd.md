@@ -24,7 +24,7 @@ This page contains the list of secret scanning alerts. You can filter and sort t
 
 ### :keyboard: Activity 2: Review a secret scanning alert
 
-In this activity, you will explore the alert UI. You'll review the validity of the secret and indentify where the secret was detected in the repository. 
+In this activity, you will explore the alert UI. You'll review the validity of the secret and identify where the secret was detected in the repository. 
 
 Open the **Amazon AWS Access Key ID** alert.
 
