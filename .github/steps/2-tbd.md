@@ -97,4 +97,7 @@ Now that you're aware of the secret in your commit, you should remove the secret
 
 1. Select the radio button next to **It's used in tests**
 2. Click **Allow secret**
-3. Wait about 20 seconds then refresh this page (the one you're following instructions from). GitHub Actions will automatically update to the next step.
+3. A notification will show saying that you can now commit the secret.
+4. Select **Commit changes...** again.
+5. Select **Commit changes**
+6. Wait about 20 seconds then refresh this page (the one you're following instructions from). GitHub Actions will automatically update to the next step.
