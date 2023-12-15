@@ -77,10 +77,7 @@ Up to now, you've learned how to identify secrets already stored in your reposit
 Now that you have enabled secret scanning push protection, certain new secrets will be blocked from being written to the repository. In this activity you will commit a new credential to the repository to experience the block protection.
 
 1. In your other browswer tab, open the `credentials.yml` file.
-2. Click the Edit button to the right.
-
-![edit-credentials-file](/images/edit-credentials-file.png)
-
+2. Click the **Edit** button to the right.
 3. Copy and paste the following string into the end of the file:
 ```  
   github-token: github_pat_<REMOVEME>11A4YXR6Y0v36CYFkuT5I1_ZRWX91c8k0waSN6x7AiVJ6zZ9ZHUQXBblBqFQpKd23V6CL7MWMPopnmBxzn
