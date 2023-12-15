@@ -3,9 +3,9 @@
   Review what we learned, ask for feedback, provide next steps.
 -->
 
-## Finish
+## Finish 🏆
 
-_Congratulations friend, you've completed this course!_ 🏆
+_Congratulations friend, you've completed this course!_ 
 
 Here's a recap of all the tasks you've accomplished in your repository:
 
